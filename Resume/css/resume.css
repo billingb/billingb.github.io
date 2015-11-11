@@ -150,6 +150,10 @@ div.content ul li {
 }
 
 /*------------------------- history --------------------------*/
+p.summary {
+  clear: both;
+}
+
 div.content table {
   border-collapse: collapse;
   border: 1px solid #6a6a6a;
