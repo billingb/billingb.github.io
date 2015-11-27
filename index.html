@@ -1,21 +1,23 @@
-<!doctype html>
+---
+layout: default
+---
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+<div class="home">
 
-  <title>Brendan Billingsley's Home Page</title>
-  <meta name="description" content="Brendan Billingsley's Home Page">
-  <meta name="author" content="Brendan Billingsley">
+  <h1 class="page-heading">Posts</h1>
 
-  <!-- <link rel="stylesheet" href="css/styles.css"> -->
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-</head>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-<body>
-<p><a href="Resume/Resume.html">Resume</a></p>
-</body>
-</html>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
