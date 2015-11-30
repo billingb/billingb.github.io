@@ -1,0 +1,18 @@
+<ul class="workExperience">
+  {% for job in site.data.jobs %}
+  <li>
+    <div class="company">{{job.company}}</div>
+    <div class="date">{{job.dates}}</div>
+    <div class="position">{{job.position}}</div>
+    <div class="summary">
+      {{job.summary}}
+    </div>
+    <ul>
+      {% for highlight in job.highlights %}
+      <li>{{highlight}}</li>
+      {% endfor %}
+    </ul>
+    <div class="tech">{{job.tech}}</div>
+  </li>
+  {% endfor %}
+</ul>

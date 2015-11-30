@@ -1,0 +1,11 @@
+- header: Work History
+  include: work-history.html
+
+- header: Education
+  include: education.html
+
+- header: Publications
+  include: publications.html
+
+- header: Skills
+  include: technical-skills.html
