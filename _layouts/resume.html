@@ -17,13 +17,13 @@
 
 <body>
 
-{% include resume-header.html %}
+{% include resume/resume-header.html %}
 
 <div class="page-content">
   <div class="wrapper">
-    {% for section in site.data.resume-sections %}
+    {% for section in site.data.resume.sections %}
     <h2>{{section.header}}</h2>
-    {% include {{section.include}} %}
+    {% include resume/{{section.include}} %}
     {% endfor %}
 
   </div>
