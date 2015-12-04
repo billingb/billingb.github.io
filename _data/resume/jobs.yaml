@@ -1,6 +1,7 @@
-- company: National Oceanic and Atmospheric Administration (NOAA) as CIRES employee, Boulder, CO
+- company: National Oceanic and Atmospheric Administration
+  location: Boulder, CO
   position: Software Engineer
-  date: September, 2014 - Present
+  date: September 2014 - Present
   summary: Full stack developer on an agile team developing multiple products supporting ingest, archive, analysis,
                      discovery and extract of scientific data.
   highlights:
@@ -12,9 +13,10 @@
       testing and groovy linting and e2e testing.
   tech: Significant use of Groovy, Angular, Javascript, Mocha and Chai, Protractor, Spring, Grails, Gradle, RabbitMQ, Gulp, Jenkins
 
-- company: National Snow and Ice Data Center (NSIDC) as CIRES employee, Boulder, CO
+- company: National Snow and Ice Data Center
+  location: Boulder, CO
   position: Software System Architect
-  date: April, 2008 - August, 2014
+  date: April 2008 - August 2014
   summary: Software architect and full stack developer on agile teams. My work at NSIDC was focused
            on projects that support science research in the Earth's cryosphere. I helped design and implement
            enterprise systems for creation, maintenance, curation, search, discovery and extract
@@ -34,9 +36,11 @@
   tech: Significant use of Javascript, Ruby, Java, Perl, Solr, backbone.js, Chai and Mocha, Sinon.js, Sinatra, Ruby on Rails,
         Bootstrap, SASS, JQuery, Postgres/PostGIS, Struts 2, Spring, Hibernate, JPA, CSS, HTML, Grunt, RSpec, Jasimine,
         Jenkins, leaflet, gdal
-- company: Xilinx, Longmong, CO
+
+- company: Xilinx
+  location: Longmont, CO
   position: Senior Software Engineer
-  date: November, 2003 - April, 2008
+  date: November 2003 - April 2008
   summary: Worked as both a developer and operations for internal applications supporting test, development and
            procurement for Xilinx.
   highlights:
@@ -50,4 +54,12 @@
     - Worked daily with customers in support of our applications and systems.
   tech: Major tools used included C++ (QT), Perl, shell scripts, Java, hibernate, spring, struts, EJB 2, Postgres,
         MySQL, Apache, Tomcat, JSF.
+
+#- company: The Brainard Group
+#  location: Boulder, CO
+#  position: Developer, Technical Support
+#  date: May 2001 - November 2003
+#  summary: Started as an intern and transitioned to full time in summer of 2002. I developed a phone system tied into a
+#           computer support system. I also Implemented bug fixes and ETL for primary credit counseling software. When short handed
+#           I provided IT support for email and web and technical support for our user base
 

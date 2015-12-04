@@ -1,18 +1,18 @@
 <ul class="workExperience">
   {% for job in site.data.resume.jobs %}
-  <li>
-    <div class="company">{{job.company}}</div>
-    <div class="date">{{job.dates}}</div>
+  <li class="entry">
+
+    <div class="company">{{job.company}}, {{job.location}}</div>
+    <div class="date">{{job.date}}</div>
     <div class="position">{{job.position}}</div>
-    <div class="summary">
+    <p class="summary">
       {{job.summary}}
-    </div>
-    <ul>
+    </p>
+    <ul class="bulletList">
       {% for highlight in job.highlights %}
       <li>{{highlight}}</li>
       {% endfor %}
     </ul>
-    <div class="tech">{{job.tech}}</div>
   </li>
   {% endfor %}
 </ul>

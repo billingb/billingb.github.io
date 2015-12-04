@@ -1,8 +1,19 @@
-<ul>
-  {% for skillGroup in site.data.resume.skills %}
-  <li>
-    <div class="skillCategory">{{skillGroup.category}}</div>
-    <div class="skills">{{skillGroup.skills | join: ", "}}</div>
-  </li>
+<div class="skills">
+  {% for skillGroup in site.data.resume.skills%}
+  {% assign value = forloop.index | modulo:2 %}
+  {% if value == 0 %}
+  <div class="skillCategory">{{skillGroup.category}}</div>
+  <div>{{skillGroup.skills | join: ", "}}</div>
+  {% endif %}
   {% endfor %}
-</ul>
+</div>
+
+<div class="skillsLast">
+  {% for skillGroup in site.data.resume.skills%}
+  {% assign value = forloop.index | modulo:2 %}
+  {% if value != 0 %}
+  <div class="skillCategory">{{skillGroup.category}}</div>
+  <div>{{skillGroup.skills | join: ", "}}</div>
+  {% endif %}
+  {% endfor %}
+</div>
