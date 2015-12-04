@@ -58,9 +58,12 @@ body {
 }
 
 .section-header {
+  clear: both;
   font-size: 1.5rem;
   border-bottom: solid #b50000 thin;
-  margin-top: 1em;
+  //margin-top: 1em;
+  //@include susy-clearfix;
+  @include span(12);
 }
 
 .entry {
@@ -105,6 +108,8 @@ body {
 }
 
 .publications {
+  @include span(12);
+  @include susy-clearfix;
   margin-top: .5em;
   li {
     margin-bottom: 1em;
@@ -113,10 +118,14 @@ body {
 
 .skills {
   @include span(6 of 12);
+  @include susy-clearfix;
+  padding-bottom: 2em;
 }
 
 .skillsLast {
   @include span(6 of 12 last);
+  @include susy-clearfix;
+  padding-bottom: 2em;
 }
 
 .skillCategory {
