@@ -130,3 +130,9 @@ body {
     font-size: 10pt;
   }
 }
+
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+  body {
+    margin-right: 5%;
+  }
+}
