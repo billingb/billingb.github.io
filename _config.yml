@@ -1,0 +1,13 @@
+# Site settings
+title: Brendan Billingsley
+email: billingb@gmail.com
+description: >
+  Brendan Billingsley's home page, not much here right now except for links to other sites
+  and my resume.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://billingb.github.io/" # the base hostname & protocol for your site
+twitter_username: brendanbill
+github_username:  billingb
+
+# Build settings
+markdown: kramdown

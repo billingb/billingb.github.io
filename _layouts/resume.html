@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Brendan Billingsley's Resume</title>
+  <meta charset="utf-8">
+  <!--<meta name="viewport" content="width=device-width initial-scale=1" />-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="author" content="Brendan Billingsley">
+  <meta name="keywords" content="Brendan, Brendan Billingsley, Resume, Brendan Billingsley's Resume">
+  <meta name="description" content="Brendan Billingsley's Resume">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link rel="stylesheet" href="{{ "/css/reset.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/resume.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+</head>
+
+<body>
+
+{% include resume/resume-header.html %}
+<div class="page-content">
+    {% for section in site.data.resume.sections %}
+    <h2 class="section-header">{{section.header}}</h2>
+    {% include resume/{{section.include}} %}
+    {% endfor %}
+</div>
+</body>
+</html>
+

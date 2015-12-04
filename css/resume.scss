@@ -1,0 +1,138 @@
+---
+
+---
+@charset "utf-8";
+
+@import "susy";
+
+$susy: (
+        columns: 12,
+        gutters: .25,
+        container: 960px,
+);
+
+body {
+  margin: 1em 1em 1em 1em;
+  font-family: Helvetica, Arial, sans-serif;;
+  color: #333;
+}
+
+.site-header {
+  @include container;
+}
+
+.address {
+  @include span(3 of 12);
+  text-align: left;
+}
+
+.title {
+  @include span(6 of 12);
+  margin-top: .25em;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.contact {
+  @include span(3 of 12 last);
+  text-align: right;
+}
+
+.icon {
+  > svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+  }
+}
+
+.social-media-header {
+  list-style: none;
+  margin-left: 0;
+}
+
+.page-content {
+  @include container;
+}
+
+.section-header {
+  font-size: 1.5rem;
+  border-bottom: solid #b50000 thin;
+  margin-top: 1em;
+}
+
+.entry {
+  padding-bottom: 2em;
+  @include susy-clearfix;
+}
+
+.position, .company, .date {
+  font-weight: bold;
+}
+
+.position {
+  @include span(7 of 12);
+  text-align: left;
+  margin-bottom: .5em;
+}
+
+.company {
+  @include span(8 of 12);
+  text-align: left;
+}
+
+.date {
+  @include span(4 of 12 last);
+  text-align: right;
+}
+
+.summary {
+  clear: both;
+}
+
+.workExperience {
+  @include susy-clearfix;
+  @include span(12 of 12);
+  margin-top: 0;
+  padding-top: .5em;
+}
+
+.bulletList {
+  list-style: disc outside none;
+  padding-left: 2em;
+}
+
+.publications {
+  margin-top: .5em;
+  li {
+    margin-bottom: 1em;
+  }
+}
+
+.skills {
+  @include span(6 of 12);
+}
+
+.skillsLast {
+  @include span(6 of 12 last);
+}
+
+.skillCategory {
+  font-weight: bold;
+  clear: both;
+  margin-top: 1em;
+}
+
+@media print {
+  body {
+    font-size: 10pt;
+  }
+}
+
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+  body {
+    margin-right: 5%;
+  }
+}

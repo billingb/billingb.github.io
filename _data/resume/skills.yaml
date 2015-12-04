@@ -1,0 +1,121 @@
+- category: Programming Languages
+  skills:
+    - Javascript
+    - Ruby
+    - Groovy
+    - Java
+    - Perl
+    - Limited or old knowledge of Python
+    - Clojure
+    - Objective C and C/C++
+    
+- category: Major Frameworks, Tools and Libraries
+  skills:
+    - Sinatra
+    - backbone.js
+    - Grails
+    - Spring Integration
+    - Ruby on Rails
+    - AngularJS
+    - protractor
+    - Bootstrap
+    - JQuery
+    - Dojo
+    - Struts
+    - Struts 2
+    - JSF
+    - Spring
+    - Hibernate
+    - Java Persistence API (JPA)
+    - Google Web Toolkit (GWT)
+    - Quartz
+    - Apache CXF
+    - RabbitMQ
+
+- category: Web Development
+  skills:
+    - SASS
+    - CSS
+    - Javascript
+    - HTML
+
+- category: Architecture
+  skills:
+    - Microservices
+    - Event Driven Architecture
+    - Service-oriented Architecture (SOA)
+    - Object Oriented Design (OOD)
+    - Domain Driven Design
+    - Model View Controller (MVC)
+    - Layered Architecture
+    - N-Tier
+    
+- category: Testing
+  skills:
+    - RSpec
+    - Jasimine
+    - Chai & Mocha
+    - Sinon.JS
+    - Spock
+    - Cucumber
+    - Saucelabs
+    - JUnit
+    - JMock(basic)
+    - Coburtura
+    - Mocks and Stubs
+
+- category: GIS
+  skills:
+    - Hibernate Spatial
+    - JTS Topology Suite
+    - KML
+    - Google Earth
+    - GDAL
+    - Proj.4 & proj4js
+    - Leaflet
+    - OpenLayers
+    - NetCDF 3 (CF conventions
+    - Java library)
+
+- category: Miscellaneous
+  skills:
+    - Puma
+    - Thin
+    - Gradle
+    - Maven 2
+    - Intellij IDEA
+    - Eclipse
+    - ANT
+    - Hudson
+    - Tomcat
+    - Jetty
+    - Apache
+    - Subversion
+    - Git
+    
+- category: OS Software Development and Administration
+  skills:
+    - Linux
+    - Mac OS X
+    - Windows
+    - Solaris
+    
+- category: Database Systems
+  skills:
+    - MySQL
+    - PostgreSQL
+    - PostGIS
+    - SQLite
+    - SpatiaLite
+    - Oracle
+    - Beginner knowledge of RDF and Tripple Stores
+    
+- category: Agile, XP and Lean Methodolie
+  skills:
+    - TDD
+    - Lean
+    - Scrum
+    - Kanban
+    - Continous Integration
+    - Scrum Master
+    
