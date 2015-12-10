@@ -1,3 +1,6 @@
-address: 780 37th ST
-address2: Boulder, CO 80303
+name: Brendan Billingsley
+streetAddress: 780 37th ST
+addressCity: Boulder
+addressState: CO
+postalCode: 80303
 phone: 303-378-4451
