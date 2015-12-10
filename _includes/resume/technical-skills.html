@@ -1,19 +1,25 @@
-<div class="skills">
-  {% for skillGroup in site.data.resume.skills%}
-  {% assign value = forloop.index | modulo:2 %}
-  {% if value == 0 %}
-  <div class="skillCategory">{{skillGroup.category}}</div>
-  <div>{{skillGroup.skills | join: ", "}}</div>
-  {% endif %}
-  {% endfor %}
-</div>
+<div itemscope itemtype="http://schema.org/ItemList">
+  <div class="skills">
+    {% for skillGroup in site.data.resume.skills%}
+    {% assign value = forloop.index | modulo:2 %}
+    {% if value == 0 %}
+    <div class="skillCategory">{{skillGroup.category}}</div>
+    <div><span itemprop="itemListElement">
+      {{skillGroup.skills | join: '</span>, <span itemprop="itemListElement">'}}
+    </span></div>
+    {% endif %}
+    {% endfor %}
+  </div>
 
-<div class="skillsLast">
-  {% for skillGroup in site.data.resume.skills%}
-  {% assign value = forloop.index | modulo:2 %}
-  {% if value != 0 %}
-  <div class="skillCategory">{{skillGroup.category}}</div>
-  <div>{{skillGroup.skills | join: ", "}}</div>
-  {% endif %}
-  {% endfor %}
+  <div class="skillsLast">
+    {% for skillGroup in site.data.resume.skills%}
+    {% assign value = forloop.index | modulo:2 %}
+    {% if value != 0 %}
+    <div class="skillCategory">{{skillGroup.category}}</div>
+    <div><span itemprop="itemListElement">
+      {{skillGroup.skills | join: '</span>, <span itemprop="itemListElement">'}}
+    </span></div>
+    {% endif %}
+    {% endfor %}
+  </div>
 </div>

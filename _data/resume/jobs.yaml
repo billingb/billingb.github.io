@@ -17,21 +17,21 @@
   location: Boulder, CO
   position: Software System Architect
   date: April 2008 - August 2014
-  summary: Software architect and full stack developer on agile teams. My work at NSIDC was focused
-           on projects that support science research in the Earth's cryosphere. I helped design and implement
+  summary: Software architect and full stack developer on agile teams. Focused
+           on supporting science research in the Earth's cryosphere. I helped design and implement
            enterprise systems for creation, maintenance, curation, search, discovery and extract
            of scientific data. This included designing and creating a PostGIS data set metadata database, service applications
            for exposing the database, an application for indexing metadata for search and discovery and multiple
            web applications for search, discovery, curation and extract of the science data.
   highlights:
-    - Received CIRES Service Award for contributions to Searchlight, an application which provides search, interaction,
-      manipulation and download of NSIDC raster and point data. I was the architect and lead developer on this project.
+    - Received CIRES Service Award for contributions as architect and lead developer to Searchlight, an application
+      which provides search, interaction, manipulation and download of NSIDC raster and point data.
     - Led adoption of agile methodologies including Scrum, Lean, Kanban and XP practices, Was scrum master
       twice during my NSIDC tenure.
     - Created and led multiple seminars for developers teaching Java basics, debugging, unit testing,
       Hibernate, JPA, Spring, PostgreSQL and PostGIS.
     - Presented posters and demos at the 2008 and 2009 American Geophysical Union Fall Meetings in San
-      Francisco. As architect represented NSIDC to stakeholders (including funding stakeholders) presenting and discussing system
+      Francisco. As architect represented NSIDC to stakeholders and funders presenting and discussing system
       architecture and implementations.
   tech: Significant use of Javascript, Ruby, Java, Perl, Solr, backbone.js, Chai and Mocha, Sinon.js, Sinatra, Ruby on Rails,
         Bootstrap, SASS, JQuery, Postgres/PostGIS, Struts 2, Spring, Hibernate, JPA, CSS, HTML, Grunt, RSpec, Jasimine,
@@ -46,8 +46,8 @@
   highlights:
     - Developer on small team for Xilinx's internal batch queuing cluster computing
       software. Implemented significant changes to the native Windows client using C++ and JNI. Performed evaluation
-      and debugging of new releases using automated and manual tests. Helped to test and optimize Postgres
-      both through hardware and system changes as well as schema improvements.
+      and debugging of new releases using automated and manual tests. Helped to load test and optimize Postgres
+       through hardware and system changes as well as schema improvements.
     - Lead developer and architect for multiple applications to support our internal mission including tracking,
       reporting and monitoring an 800 node compute farm, a hardware and software ordering request system and inventory tracking
       among other things.
