@@ -9,8 +9,9 @@
       data streams to the data ingest system. This result was accomplished by changing from custom
       code for each data stream to using composition orchestrated by UI editable configuration.
     - Transformed engineering practices of the team to significantly increase productivity and quality of code. Working closely
-      with a coworker we introduced continuous delivery build pipelines, javascript build, linting, unit testing and e2e
-      testing and groovy linting and e2e testing.
+      with a coworker we introduced continuous delivery build, linting, unit and e2e testing in javasctip as well as linting
+      e2e testing for Groovy applications.
+    - Led improvement of agile processes including introducing lean and XP practices. Performed scrum master role on team.
   tech: Significant use of Groovy, Angular, Javascript, Mocha and Chai, Protractor, Spring, Grails, Gradle, RabbitMQ, Gulp, Jenkins
 
 - company: National Snow and Ice Data Center
@@ -26,7 +27,7 @@
   highlights:
     - Received CIRES Service Award for contributions as architect and lead developer to Searchlight, an application
       which provides search, interaction, manipulation and download of NSIDC raster and point data.
-    - Led adoption of agile methodologies including Scrum, Lean, Kanban and XP practices, Was scrum master
+    - Led adoption of agile methodologies including Scrum, Lean, Kanban and XP practices. I was scrum master
       twice during my NSIDC tenure.
     - Created and led multiple seminars for developers teaching Java basics, debugging, unit testing,
       Hibernate, JPA, Spring, PostgreSQL and PostGIS.
@@ -45,21 +46,21 @@
            procurement for Xilinx.
   highlights:
     - Developer on small team for Xilinx's internal batch queuing cluster computing
-      software. Implemented significant changes to the native Windows client using C++ and JNI. Performed evaluation
+      software. Implemented feature improvements for the native Windows client using C++ and JNI. Performed evaluation
       and debugging of new releases using automated and manual tests. Helped to load test and optimize Postgres
-       through hardware and system changes as well as schema improvements.
+       through schema improvements as well as hardware and system tuning.
     - Lead developer and architect for multiple applications to support our internal mission including tracking,
       reporting and monitoring an 800 node compute farm, a hardware and software ordering request system and inventory tracking
       among other things.
-    - Worked daily with customers in support of our applications and systems.
+    - Worked daily with customers for support of internal applications and systems.
   tech: Major tools used included C++ (QT), Perl, shell scripts, Java, hibernate, spring, struts, EJB 2, Postgres,
         MySQL, Apache, Tomcat, JSF.
 
-#- company: The Brainard Group
-#  location: Boulder, CO
-#  position: Developer, Technical Support
-#  date: May 2001 - November 2003
-#  summary: Started as an intern and transitioned to full time in summer of 2002. I developed a phone system tied into a
-#           computer support system. I also Implemented bug fixes and ETL for primary credit counseling software. When short handed
-#           I provided IT support for email and web and technical support for our user base
+- company: The Brainard Group
+  location: Boulder, CO
+  position: Developer, Technical Support
+  date: May 2001 - November 2003
+  summary: Started as an intern and transitioned to full time in summer of 2002. Developed a phone system tied into a
+           computer support system. I also Implemented bug fixes and ETL for primary credit counseling software. When short handed
+           I provided IT support for email and web and technical support for our user base.
 

@@ -1,0 +1,3 @@
+- repository: https://bitbucket.org/nsidc/dataset-landing-page/overview
+  description: A backbone.js Javascript applications to serve landing pages for NSIDC datasets. I contributed
+  under the billinb username while working at NSIDC
