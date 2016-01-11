@@ -8,9 +8,9 @@
     - Led a successful effort reducing software team development effort by an estimated 10x for adding new
       data streams to the data ingest system. This result was accomplished by changing from custom
       code for each data stream to using composition orchestrated by UI editable configuration.
-    - Transformed engineering practices of the team to significantly increase productivity and quality of code. Working closely
-      with a coworker we introduced continuous delivery build, linting, unit and e2e testing in javasctip as well as linting
-      e2e testing for Groovy applications.
+    - Transformed engineering practices of the team to significantly increase productivity and quality of code. Working in
+      conjuction with a coworker we introduced continuous build, delivery, linting, unit and e2e testing in javascript as well as linting
+      and e2e testing for Groovy applications.
     - Led improvement of agile processes including introducing lean and XP practices. Performed scrum master role on team.
   tech: Significant use of Groovy, Angular, Javascript, Mocha and Chai, Protractor, Spring, Grails, Gradle, RabbitMQ, Gulp, Jenkins
 
@@ -25,7 +25,7 @@
            for exposing the database, an application for indexing metadata for search and discovery and multiple
            web applications for search, discovery, curation and extract of the science data.
   highlights:
-    - Received CIRES Service Award for contributions as architect and lead developer to Searchlight, an application
+    - Received CIRES Service Award for contributions as architect and lead developer of Searchlight, an application
       which provides search, interaction, manipulation and download of NSIDC raster and point data.
     - Led adoption of agile methodologies including Scrum, Lean, Kanban and XP practices. I was scrum master
       twice during my NSIDC tenure.
