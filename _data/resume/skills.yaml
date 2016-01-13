@@ -14,14 +14,13 @@
     - Sinatra
     - backbone.js
     - Grails
-    - Spring Integration
+    - Spring (Boot, Integration, MVC)
     - Ruby on Rails
     - AngularJS
     - protractor
     - RabbitMQ
     - Bootstrap
     - JQuery
-    - Spring
     - Hibernate
     - Java Persistence API (JPA)
     - Struts 2
