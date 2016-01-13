@@ -18,19 +18,15 @@
     - Ruby on Rails
     - AngularJS
     - protractor
+    - RabbitMQ
     - Bootstrap
     - JQuery
-    - Dojo
-    - Struts
-    - Struts 2
-    - JSF
     - Spring
     - Hibernate
     - Java Persistence API (JPA)
-    - Google Web Toolkit (GWT)
+    - Struts 2
     - Quartz
     - Apache CXF
-    - RabbitMQ
 
 - category: Web Development
   skills:
@@ -60,22 +56,19 @@
     - Cucumber
     - Saucelabs
     - JUnit
-    - JMock(basic)
-    - Coburtura
     - Mocks and Stubs
 
 - category: GIS
   skills:
     - Hibernate Spatial
     - JTS Topology Suite
-    - KML
-    - Google Earth
     - GDAL
     - Proj.4 & proj4js
     - Leaflet
+    - KML
+    - Google Earth
     - OpenLayers
-    - NetCDF 3 (CF conventions
-    - Java library)
+    - NetCDF 3 (CF conventions, Java library)
 
 - category: Miscellaneous
   skills:
@@ -86,7 +79,7 @@
     - Intellij IDEA
     - Eclipse
     - ANT
-    - Hudson
+    - Jenkins
     - Tomcat
     - Jetty
     - Apache
@@ -102,7 +95,6 @@
     
 - category: Database Systems
   skills:
-    - MySQL
     - PostgreSQL
     - PostGIS
     - SQLite
@@ -110,7 +102,7 @@
     - Oracle
     - Beginner knowledge of RDF and Tripple Stores
     
-- category: Agile, XP and Lean Methodolie
+- category: Agile, XP and Lean Methodoligies
   skills:
     - TDD
     - Lean
