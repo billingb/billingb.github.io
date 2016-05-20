@@ -1,0 +1,105 @@
+- title: Bowling Challenge
+  when: 2016
+  skills:
+    - Node.js
+    - Mocha
+    - Chai
+    - JS Hint
+    - Travis CI
+  description: The bowling challenge is my solution to a code challenge provided as part of an interview process. It was
+               written in the language and style of my choice, TDD and Node.js. The bowling challenge is a command line
+               javascript application that scores a game of bowling, taking in integers and printing the score for the
+               game when complete.
+  links:
+    - https://github.com/billingb/bowling-scorer
+
+- title: Resume
+  when: 2015 to present
+  skills:
+    - HTML
+    - SASS
+    - Susy
+    - jekyll
+    - schema.org
+  description: My resume is a github pages project using susy and sass.
+  links:
+    - https://github.com/billingb/billingb.github.io
+
+- title: NSIDC Search and Arctic Data Explorer
+  when: 2012 - 2014
+  skills:
+    - Javascript
+    - Ruby
+    - Node.js
+    - Solr
+    - Sinatra
+    - backbone.js
+    - bootstrap
+    - SASS
+    - HTML
+    - RSpec
+    - Chai + Mocha
+    - JS Hint
+    - Sinon.JS
+    - Cucumber
+    - Saucelabs
+    - Jenkins
+    - Vagrant
+    - Puppet
+    - Leaflet
+    - Git
+  contribution: Architect and full stack engineer in agile team.
+  description: A large project at NSIDC to provide two interfaces for search and discovery of
+               scientific data. NSIDC Search exposes NSIDC held datasets. Arctic Data Explorer is an
+               interface for arctic datasets from roughly a dozen data centers. Both interfaces share a common code
+               base and depend on shared REST services. I contributed to this project as architect and as a
+               full stack developer on an agile team. Most of the code repositories are open source, however when they were
+               open sourced the history was deleted so it isn’t possible to find my commits.
+  links:
+    - http://nsidc.org/data/search/
+    - http://nsidc.org/acadis/search
+    - https://github.com/nsidc/dataset-search-services
+    - https://github.com/nsidc/search-interface
+    - https://github.com/nsidc/search-solr-tools
+
+- title: NCEI Common Ingest
+  skills:
+    - Groovy
+    - Javascript
+    - Node.js
+    - RabbitMQ
+    - Spring
+    - Spring Boot
+    - Spring Integration
+    - Grails
+    - Gradle
+    - Hibernate
+    - Groovy SQL
+    - GDAL
+    - CSS
+    - HTML
+    - Spock
+    - Jenkins
+    - Git
+    - Oracle Database
+  when: 2015
+  contribution: Full stack engineer in agile team.
+  description: NCEI Common Ingest is a data file ingest system that includes file transformations and processing. The
+               project was established before I joined NCEI. After the 2015 work the system was recognized as a leading
+               solution in NCEI for data ingest and has been adopted by other NCEI sites for handling data ingest. This
+               was made possible by design refactoring I led in 2015 which drastically reduced the cost (estimated 10x)
+               of adding new data streams to the ingest system. NCEI Common Ingest is a private project.
+
+- title: SPADES Control Segment
+  when: 2016
+  skills:
+    - Apache Storm
+    - Groovy
+    - Gradle
+    - Ansible
+    - Spock
+  contribution: Full stack engineer in small agile team
+  description: Real time processing system for GOES-R satellite data. This system monitors the file system to process
+               incoming data files through roughly 25 separate algorithms. The project coordinates the algorithms but algorithms
+               them selves were created by another team. SPADES Control Segment is a private project.
+

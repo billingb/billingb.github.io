@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Brendan Billingsley's Code Portfolio</title>
+  <meta charset="utf-8">
+  <!--<meta name="viewport" content="width=device-width initial-scale=1" />-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="author" content="Brendan Billingsley">
+  <meta name="keywords" content="Brendan, Brendan Billingsley, Resume, Code Portfolio, Portfolio">
+  <meta name="description" content="Brendan Billingsley's Code Portfolio">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link rel="stylesheet" href="{{ "/css/reset.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/resume.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+</head>
+
+<body>
+
+{% include resume/resume-header.html %}
+<div class="page-content">
+  <h2 class="section-header">Projects</h2>
+  <div>These are some of the projects and code samples I have worked on in recent years</div>
+  <ul class="workExperience">
+    {% for project in site.data.projects %}
+    <li class="entry">
+      <div class="sectionTitle">{{project.title}}</div>
+      <div class="date">{{project.when}}</div>
+      <ul class="projectSkills">
+        {% for skill in project.skills %}
+        <li>{{skill}}</li>
+        {% endfor %}
+      </ul>
+      <div class="description">{{project.description}}</div>
+      <ul class="links">
+        {% for link in project.links %}
+        <li><a href="{{link}}">{{link}}</a></li>
+        {% endfor %}
+      </ul>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+</body>
+</html>
+

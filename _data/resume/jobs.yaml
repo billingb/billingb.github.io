@@ -2,8 +2,8 @@
   location: Boulder, CO
   position: Software Engineer
   date: September 2014 - Present
-  summary: Full stack developer on an agile team developing multiple products supporting ingest, archive, analysis,
-                     discovery and extract of scientific data.
+  summary: Full stack developer on an agile team developing multiple products supporting ingest, archive, analysis, processing,
+           discovery and extract of scientific data.
   highlights:
     - Led a successful effort reducing software team development effort by an estimated 10x for adding new
       data streams to the data ingest system. This result was accomplished by changing from custom
@@ -12,7 +12,8 @@
       conjuction with a coworker we introduced continuous build, delivery, linting, unit and e2e testing in javascript as well as linting
       and e2e testing for Groovy applications.
     - Led improvement of agile processes including introducing lean and XP practices. Performed scrum master role on team.
-  tech: Significant use of Groovy, Angular, Javascript, Mocha and Chai, Protractor, Spring, Grails, Gradle, RabbitMQ, Gulp, Jenkins
+  tech: Groovy, Angular, Javascript, Node.js, Mocha and Chai, Protractor, Spring, Grails, Gradle, RabbitMQ, Gulp, Jenkins,
+        Apache Storm
 
 - company: National Snow and Ice Data Center
   location: Boulder, CO
@@ -34,7 +35,7 @@
     - Presented posters and demos at the 2008 and 2009 American Geophysical Union Fall Meetings in San
       Francisco. As architect represented NSIDC to stakeholders and funders presenting and discussing system
       architecture and implementations.
-  tech: Significant use of Javascript, Ruby, Java, Perl, Solr, backbone.js, Chai and Mocha, Sinon.js, Sinatra, Ruby on Rails,
+  tech: Javascript, Ruby, Java, Perl, Solr, backbone.js, Chai and Mocha, Sinon.js, Sinatra, Ruby on Rails,
         Bootstrap, SASS, JQuery, Postgres/PostGIS, Struts 2, Spring, Hibernate, JPA, CSS, HTML, Grunt, RSpec, Jasimine,
         Jenkins, leaflet, gdal
 
@@ -47,13 +48,12 @@
   highlights:
     - Developer on small team for Xilinx's internal batch queuing cluster computing
       software. Implemented feature improvements for the native Windows client using C++ and JNI. Performed evaluation
-      and debugging of new releases using automated and manual tests. Helped to load test and optimize Postgres
-       through schema improvements as well as hardware and system tuning.
+      and debugging of new releases using automated and manual tests. Performed load testing and optimization of Postgres DB.
     - Lead developer and architect for multiple applications to support our internal mission including tracking,
       reporting and monitoring an 800 node compute farm, a hardware and software ordering request system and inventory tracking
       among other things.
     - Worked daily with customers for support of internal applications and systems.
-  tech: Major tools used included C++ (QT), Perl, shell scripts, Java, hibernate, spring, struts, EJB 2, Postgres,
+  tech: C++ (QT), Perl, shell scripts, Java, hibernate, spring, struts, EJB 2, Postgres,
         MySQL, Apache, Tomcat, JSF.
 
 - company: The Brainard Group

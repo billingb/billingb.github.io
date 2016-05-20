@@ -48,6 +48,10 @@ body {
   }
 }
 
+.label {
+  font-weight: bold;
+}
+
 .social-media-header {
   list-style: none;
   margin-left: 0;
@@ -71,7 +75,7 @@ body {
   @include susy-clearfix;
 }
 
-.position, .company, .date {
+.position, .sectionTitle, .date {
   font-weight: bold;
 }
 
@@ -81,7 +85,7 @@ body {
   margin-bottom: .5em;
 }
 
-.company {
+.sectionTitle {
   @include span(8 of 12);
   text-align: left;
 }
@@ -132,6 +136,32 @@ body {
   font-weight: bold;
   clear: both;
   margin-top: 1em;
+}
+
+.projectSkills {
+  clear: both;
+  li {
+    font-size: 0.8rem;
+    background: #B54B4B;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    padding: 8px;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    line-height: 0;
+  }
+}
+
+.contribution {
+  clear: both;
+}
+
+.contribution, .description, .links {
+  margin-top: .25em;
 }
 
 @media print {

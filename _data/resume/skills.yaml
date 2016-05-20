@@ -4,7 +4,7 @@
     - Ruby
     - Groovy
     - Java
-    - Limited or outdataed knowledge of Python
+    - Beginner or outdataed knowledge of Python
     - Perl
     - Clojure
     - Objective C and C/C++
@@ -26,6 +26,7 @@
     - Struts 2
     - Quartz
     - Apache CXF
+    - Apache Storm
 
 - category: Web Development
   skills:
@@ -98,6 +99,7 @@
     - PostGIS
     - SQLite
     - SpatiaLite
+    - Solr
     - Oracle
     - Beginner knowledge of RDF and Tripple Stores
     
