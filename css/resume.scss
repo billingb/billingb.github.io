@@ -17,6 +17,10 @@ body {
   color: #333;
 }
 
+div {
+  font-size: 1rem;
+}
+
 .site-header {
   @include container;
 }
@@ -99,11 +103,15 @@ body {
   clear: both;
 }
 
-.workExperience {
+.workExperience, .portfolioSummary {
   @include susy-clearfix;
   @include span(12 of 12);
   margin-top: 0;
   padding-top: .5em;
+}
+
+.portfolioSummary {
+  padding-bottom: 2em;
 }
 
 .bulletList {
@@ -156,11 +164,7 @@ body {
   }
 }
 
-.contribution {
-  clear: both;
-}
-
-.contribution, .description, .links {
+.description, .links {
   margin-top: .25em;
 }
 

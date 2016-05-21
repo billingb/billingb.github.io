@@ -1,0 +1,5 @@
+- header: Projects
+  include: projects.html
+
+- header: Publications and Poster Presentations
+  include: publications.html

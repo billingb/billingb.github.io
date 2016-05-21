@@ -20,27 +20,10 @@
 
 {% include resume/resume-header.html %}
 <div class="page-content">
-  <h2 class="section-header">Projects</h2>
-  <div>These are some of the projects and code samples I have worked on in recent years</div>
-  <ul class="workExperience">
-    {% for project in site.data.projects %}
-    <li class="entry">
-      <div class="sectionTitle">{{project.title}}</div>
-      <div class="date">{{project.when}}</div>
-      <ul class="projectSkills">
-        {% for skill in project.skills %}
-        <li>{{skill}}</li>
-        {% endfor %}
-      </ul>
-      <div class="description">{{project.description}}</div>
-      <ul class="links">
-        {% for link in project.links %}
-        <li><a href="{{link}}">{{link}}</a></li>
-        {% endfor %}
-      </ul>
-    </li>
-    {% endfor %}
-  </ul>
+  {% for section in site.data.portfolio.sections %}
+  <h2 class="section-header">{{section.header}}</h2>
+  {% include portfolio/{{section.include}} %}
+  {% endfor %}
 </div>
 </body>
 </html>

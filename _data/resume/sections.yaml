@@ -7,5 +7,5 @@
 - header: Skills
   include: technical-skills.html
 
-- header: Publications and Poster Presentations
-  include: publications.html
+- header: Portfolio
+  include: portfolio.html
