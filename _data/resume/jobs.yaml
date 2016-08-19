@@ -1,7 +1,15 @@
+- company: Billingsley Custom Software LLC
+  location: Boulder, CO
+  position: Sole Proprietor, Software Engineer
+  date: July 2016 - Present
+  summary: As the sole propreitor create and maintain web applications for diverse clients.
+  highlights:
+  tech: Ruby, Sinatra, RSpec, React, Redux, Sass, Bootstrap
+
 - company: National Oceanic and Atmospheric Administration
   location: Boulder, CO
   position: Software Engineer
-  date: September 2014 - Present
+  date: September 2014 - July 2016
   summary: Full stack developer on an agile team developing multiple products supporting ingest, archive, analysis, processing,
            discovery and extract of scientific data.
   highlights:
