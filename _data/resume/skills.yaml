@@ -12,21 +12,21 @@
 - category: Major Frameworks, Tools and Libraries
   skills:
     - Sinatra
+    - React (Redux)
     - backbone.js
-    - Grails
     - Spring (Boot, Integration, MVC)
-    - Ruby on Rails
-    - AngularJS
-    - protractor
+    - Apache Storm
     - RabbitMQ
+    - AngularJS
     - Bootstrap
     - JQuery
+    - Ruby on Rails
+    - Grails
+    - protractor
     - Hibernate
     - Java Persistence API (JPA)
     - Struts 2
     - Quartz
-    - Apache CXF
-    - Apache Storm
 
 - category: Web Development
   skills:
@@ -57,6 +57,7 @@
     - Saucelabs
     - JUnit
     - Mocks and Stubs
+    - TDD
 
 - category: GIS
   skills:
@@ -72,6 +73,8 @@
 
 - category: Miscellaneous
   skills:
+    - Heroku
+    - Git
     - Puma
     - Thin
     - Gradle
@@ -84,7 +87,6 @@
     - Jetty
     - Apache
     - Subversion
-    - Git
     
 - category: OS Software Development and Administration
   skills:
