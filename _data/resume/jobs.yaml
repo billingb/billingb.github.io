@@ -4,7 +4,10 @@
   date: July 2016 - Present
   summary: As the sole propreitor create and maintain web applications for diverse clients.
   highlights:
-  tech: Ruby, Sinatra, RSpec, React, Redux, Sass, Bootstrap
+    - Implemented advanced payment processing and user payout for IdeaJam (https://ideajam.io/) patent and
+    crowdfunding site using Stripe and PayPal.
+    - Contributed to the open source Nunaliit Atlas Framework as part of the ELOKA project
+  tech: Ruby, Sinatra, RSpec, React, Redux, Sass, Bootstrap, Stripe, Paypal, Java, Javascript
 
 - company: National Oceanic and Atmospheric Administration
   location: Boulder, CO
