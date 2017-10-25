@@ -5,7 +5,8 @@
   summary: As the sole propreitor create and maintain web applications for diverse clients and industries with a focus on efficient high quality results.
   highlights:
     - Implemented advanced payment processing and user payout for IdeaJam (https://ideajam.io/) patent and crowdfunding site using Stripe and PayPal.
-    - Contributed to the open source Nunaliit Atlas Framework as part of the ELOKA project
+    - Contributed to the open source Nunaliit Atlas Framework as part of the ELOKA project.
+    - Provide code audit and technical advising to The Gordon Foundation for the Mackenzie DataStream product.
   tech: Ruby, Sinatra, RSpec, React, Redux, Sass, Bootstrap, Stripe, Paypal, Java, Javascript
 
 - company: National Oceanic and Atmospheric Administration
